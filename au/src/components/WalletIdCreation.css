@@ -1,0 +1,94 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Wallet ID Container */
+.wallet-id-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Rectangle styles */
+.rectangle-5 {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px; /* Max width for larger screens */
+}
+
+.rectangle-6 {
+    background: #4CAF50; /* Green background */
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Title styles */
+.wallet-id-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* User name style */
+.user-name {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555; /* Grey color */
+}
+
+/* Wallet ID text */
+.wallet-id-text {
+    font-size: 20px;
+    margin: 15px 0;
+    color: #333; /* Darker color for contrast */
+}
+
+/* Wallet ID display */
+.wallet-id {
+    font-size: 22px;
+    font-weight: bold;
+    color: #4CAF50; /* Same green as the header */
+}
+
+/* Emoji image */
+.emoji {
+    width: 100px; /* Fixed width */
+    margin: 20px 0;
+}
+
+/* Download section */
+.download-section {
+    margin-top: 30px;
+}
+
+.download-title {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Download icon */
+.download-icon-container {
+    display: flex;
+    justify-content: center;
+}
+
+.download-icon {
+    width: 50px; /* Fixed width for the download icon */
+    height: auto;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.3s; /* Animation effect */
+}
+
+.download-icon:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+}

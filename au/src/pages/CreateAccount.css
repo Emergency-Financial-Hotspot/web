@@ -1,0 +1,183 @@
+/* Rectangle 5 */
+.rectangle-5 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 600px; /* Adjust for balanced width */
+    height: auto; /* Allow dynamic height based on content */
+    max-height: 90%; /* Prevent the rectangle from being too tall */
+    background: rgba(0, 0, 0, 0.16);
+    border: 1px solid #9DA1DD;
+    backdrop-filter: blur(6.8px); /* Adds a subtle blur effect */
+    border-radius: 30px; /* Rounded corners for sleekness */
+    padding: 40px; /* Spacing around the content */
+    margin: auto;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Truly centers the element */
+    overflow-y: auto; /* Allows vertical scrolling if content overflows */
+}
+
+/* Flexbox for better layout control */
+.create-account {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Title styling */
+.create-wallet-account {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Input field container styling */
+.input-frame {
+    margin-bottom: 15px;
+}
+
+/* Input label */
+.input-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Input field styles */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none; /* Removes default browser styling */
+}
+
+/* Notice text below the input field */
+.notice-text {
+    color: red; /* Use any preferred color */
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Terms and conditions checkbox area */
+.terms {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.terms-text {
+    font-size: 14px;
+}
+
+/* Create button styles */
+.create-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s ease; /* Button press animation */
+    margin-top: 20px; /* Add space above the button */
+}
+
+/* Hover effect for the create button */
+.create-button:hover {
+    background-color: #45a049;
+}
+
+/* Button press animation when clicked */
+.create-button:active {
+    transform: translateY(4px); /* Moves button slightly downward */
+}
+
+/* Upload photo section */
+.upload-photo-frame {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.upload-photo-text {
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Success message styles */
+.success-message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(76, 175, 80, 0.9); /* Green background with slight transparency */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 200; /* Ensure it is on top of other content */
+}
+
+/* Payment Button Styles */
+.payment-method-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.payment-button {
+    width: 100px;
+    height: 48px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white; /* Default white background */
+    border: 1px solid #ccc; /* Default button border */
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* Payment method images */
+.phonepe-button {
+    background-image: url('phonepay.png');
+}
+
+.googlepay-button {
+    background-image: url('gpay.png');
+}
+
+.paytm-button {
+    background-image: url('paytm.png');
+}
+
+.paypal-button {
+    background-image: url('paypal.png');
+}
+
+/* Highlight the active button */
+.payment-button.active {
+    border: 2px solid #4caf50; /* Green border to indicate selection */
+    background-color: rgba(76, 175, 80, 0.1); /* Light green background */
+    color: #4caf50;
+}
+
+/* Button press effect when clicked */
+.payment-button:active {
+    transform: translateY(4px); /* Moves button slightly downward */
+}
+
+/* Custom Scrollbar Styling */
+.rectangle-5::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.rectangle-5::-webkit-scrollbar-thumb {
+    background-color: #4caf50; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Round edges for the scrollbar thumb */
+}
+
+.rectangle-5::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1); /* Color of the scrollbar track */
+    border-radius: 10px; /* Round edges for the scrollbar track */
+}
