@@ -79,7 +79,6 @@ git push
 
 
 
-
 ###  Instructions
 
 - **Project Name**: Emergency Financial Hotspot for Cashless Transactions.
